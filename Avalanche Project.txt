@@ -1,0 +1,28 @@
+\documentclass[20pt,a4paper]{article}
+\usepackage{amsmath}
+\usepackage{setspace}
+
+\title{Avalanche Project}
+
+
+\begin{document}
+    \maketitle
+
+    \begin{abstract}
+            In this article we want to observe the velocity of delivering package and want to check the possibility of controlling the touch down velocity
+    \end{abstract}
+
+    \section{Free-Fall Study}
+    At first , we consider a sphere that has free-falling in the present of of air resistance $F_d$ and mass force $mg$
+    the formulations are calculated as 
+    \begin{align}
+        \sum F= m\frac{\mathrm{d} V}{\mathrm{d} t} \\
+         F_d = \frac{1}{2}c_1\rho v^2\\ 
+         mg - f_d = m\frac{\mathrm{d} v}{\mathrm{d} t}\\
+         \frac{\mathrm{d} V}{\mathrm{d} t}+Bv^2=g\\
+         B=\frac{c_1\rho}{2m} \\
+         \int_{}^{}  \,\frac{\mathrm{d}t}{g-Bv} =\int_{}^{}  \,\mathrm{d}t\\
+         \ln(g-Bv)=-Bt-c_1B \\ g-Bv=e^{-Bt} e^{-c_1t}\\g-Bv=Ce^{-Bt} \text{ ; } C=e^{-c_1t}\\ 
+         v(t)=\frac{2m(g-Ce^{-\frac{c_1\rho}{2m}t })}{c_1\rho} 
+    \end{align}
+\end{document}
